@@ -1,0 +1,97 @@
+.body{
+    font-family:  'PT Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #010101;
+    direction: ltr;
+
+}
+.heroSection{
+    width: 100%;
+    height: auto;
+    padding: 52px 0 100 0;
+    box-sizing: border-box;
+    background: #fcdb00;
+
+}
+.container{
+    width: 940px ;
+    min-height: 100px;
+    margin: 0 auto;
+}
+.clear{
+
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 50%;
+}
+.menu{
+    float: right;
+    width: 50%;
+}
+.menu ul li {
+    list-style-type:none;
+    margin-left:50px;
+    display: inline-block
+    
+}
+
+.menu ul li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.menu ul{
+    text-align: right;
+    margin-left: 50px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.heroDesc{
+    float: left;
+    width: 50%;
+    padding-top: 145px;
+    box-sizing: border-box;
+}
+.heroImage{
+    float:right;
+    width: 50%;
+}
+.heroDesc h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.heroDesc h2{
+    color:#010101;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 85px;
+    box-sizing: border-box;
+
+}
+.heroDesc p{
+    color: #010101;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+a.link {
+    font-size: 42px;
+    color: #010101;
+    text-decoration: none;
+    margin-right: 35px;
+}
+a.link:last-child{
+    margin-right: 0;
+}
+.heroImage img{
+    margin-top: 60px;
+    margin-left: 155px;
+}
